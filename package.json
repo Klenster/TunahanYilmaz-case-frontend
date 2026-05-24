@@ -15,7 +15,7 @@
     "axios": "^1.7.2",
     "zustand": "^4.5.2",
     "react-hot-toast": "^2.4.1",
-    "lucide-react": "^0.383.0",
+    "lucide-react": "^0.511.0",
     "recharts": "^2.12.7",
     "clsx": "^2.1.1",
     "i18next": "^23.11.5",
