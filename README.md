@@ -51,7 +51,7 @@ Türkçe/İngilizce dil desteği, sidebar'dan değiştirilebilir
 
 ```bash
 # 1.Klasöre geçiş
-cd TunahanYilmaz-case-Frontend
+cd TunahanYilmaz-case-frontend
 
 # 2. Bağımlılıkları yükle
 npm install
@@ -129,7 +129,7 @@ frontend/
 │   └── i18n.ts                 # i18next yapılandırması, TR/EN çeviriler
 ├── store/
 │   └── index.ts                # Zustand store'ları: auth, tema, dil
-└── next.config.js              # /api/* proxy yapılandırması
+└── next.config.js              # API yapılandırması
 ```
 
 ---
@@ -145,20 +145,6 @@ frontend/
 | `/products/:id`  | Giriş yapılmış | Pasaport detayı, materyal tablosu        |
 | `/users`         | Admin          | Kullanıcı listesi, rol değiştirme, silme |
 | `/profile`       | Giriş yapılmış | Profil bilgisi + şifre değiştirme        |
-
----
-
-## Docker
-
-Backend ve frontend klasörleri aynı kök dizinde bulunması gerekir ve yml dosyasının frontend klasörünün içinde bulunması gerekir.
-
-```bash
-cd TunahanYilmaz-case-frontend
-
-docker-compose up --build
-```
-
-Frontend port 3000'de çalışır.
 
 ---
 
