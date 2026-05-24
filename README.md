@@ -150,8 +150,11 @@ frontend/
 
 ## Docker
 
+Backend ve frontend klasörleri aynı kök dizinde bulunması gerekir ve yml dosyasının frontend klasörünün içinde bulunması gerekir.
+
 ```bash
-# Proje kök dizininde
+cd TunahanYilmaz-case-frontend
+
 docker-compose up --build
 ```
 
