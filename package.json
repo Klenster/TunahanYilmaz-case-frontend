@@ -1,0 +1,35 @@
+{
+  "name": "dpp-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "axios": "^1.7.2",
+    "zustand": "^4.5.2",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.383.0",
+    "recharts": "^2.12.7",
+    "clsx": "^2.1.1",
+    "i18next": "^23.11.5",
+    "react-i18next": "^14.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5",
+    "tailwindcss": "^3.4.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.5.10",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2"
+  }
+}
